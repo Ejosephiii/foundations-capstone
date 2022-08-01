@@ -33,4 +33,6 @@ app.post("/kayak", postKayak)
 
 app.delete(`/kayak/:id`, deleteKayak)
 
-app.listen(4000, () => console.log("Server runnning on port 4000"))
+const PORT = process.env.PORT || 4000
+
+app.listen(PORT, () => console.log("Server runnning on port 4000"))
