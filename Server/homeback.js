@@ -32,7 +32,7 @@ app.get ('/js', (req, res) => {
 })
 
 app.get ('/js2', (req, res) => {
-    res.sendFile(path.join(__dirname, '../listfront.css'))
+    res.sendFile(path.join(__dirname, '../listfront.js'))
 })
 
 
