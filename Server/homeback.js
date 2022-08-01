@@ -7,6 +7,14 @@ const { postKayak, deleteKayak } = require("./controller");
 
 const app = express();
 
+app.get ('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../home.html'))
+})
+
+app.get ('/list', (req, res) => {
+    res.sendFile(path.join(__dirname, '../list.html'))
+})
+
 app.get ('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../home.css'))
 })
