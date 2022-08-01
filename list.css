@@ -17,10 +17,6 @@ body {
     background-color: #8598A9;
 }
 
-
-
-
-
 button {
     margin-top: 30px;
 }
@@ -110,5 +106,5 @@ header {
     width: 100%;
     margin-top: 40px;
     background-color: blue;
-  
+  border-radius: 30px;
 }
