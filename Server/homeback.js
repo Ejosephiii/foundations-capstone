@@ -15,6 +15,10 @@ app.get ('/list', (req, res) => {
     res.sendFile(path.join(__dirname, '../list.html'))
 })
 
+app.get ('/customFont', (req, res) => {
+    res.sendFile(path.join(__dirname, '../fonts/WaterGalon-ywgjV.otf'))
+})
+
 app.get ('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../home.css'))
 })

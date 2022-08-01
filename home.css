@@ -1,6 +1,6 @@
 @font-face {
     font-family: water;
-    src: url(./fonts/WaterGalon-ywgjV.otf);
+    src: url(/customFont);
 }
 
 body{
