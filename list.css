@@ -9,6 +9,7 @@
 }
 
 body {
+    text-overflow: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +26,9 @@ button {
 }
 
 #listImage {
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     width: 50vw;
     height:60vh;
     display: flex;
@@ -35,24 +39,39 @@ button {
 
 header {
     
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     font-family: water;
     margin-top: 5px;
     margin-bottom: 50px;
     font-size: xx-large;
     background-color:#C3D2DF;
-    border-radius: 5px;
+    
 }
 
 #priceInput {
+    background-color:#99B7C8;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     font-family: water;
 }
 
 #postBtn {
+    background-color:#99B7C8;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     font-family: water;
     margin-left: 20px
 }
 
 #farewellBtn {
+    background-color:#99B7C8;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     font-family: water;
     display: flex;
     flex-direction: column;
@@ -61,16 +80,30 @@ header {
 }
 
 #imageInput {
+    background-color:#99B7C8;
     font-family: water;
- 
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #websiteInput {
+    background-color:#99B7C8;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
     font-family: water;
-
     margin-right: 20px;
+}
+
+#homeBack {
+    font-family: water;
+    background-color:#99B7C8;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
 }
 
 .listExtraStyle {
